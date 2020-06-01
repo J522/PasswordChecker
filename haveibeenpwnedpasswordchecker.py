@@ -11,7 +11,7 @@ def getUserInputAndPrintResult():
     for line in hash_list:
         if line[:35]==password_hash_suffix:
             password_not_found = False
-            print("password found: "+line[:-36] +" times in the database")
+            print("password found: "+line)
     if password_not_found:
         print("Password not found in database")
        
